@@ -1,0 +1,11 @@
+.text-red{
+    color: #FF5F5F;
+}
+
+.bg-overlay{
+    background-blend-mode: overlay;
+}
+
+.custom-border-radius{
+    border-radius: 10px;
+}

@@ -1,8 +1,254 @@
-<head></head>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Sleeper Link | Discord Bot For Your Sleeper League</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.jpg">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PX6PF5WV4D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PX6PF5WV4D');
+    </script>
+</head>
 
 <body>
-    <h1>Sleeper Link</h1>
-</body>
-<footer>
+    <main>
+        <!--Hero-->
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/images/matchup_short.png" class="custom-border-radius d-block mx-lg-auto img-fluid"
+                        alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Sleeper Link Fantasy Football Discord Bot</h1>
+                    <p class="lead">Sleeper Link provides a link between your discord server and your Sleeper
+                        fantasy football league making it more conveinient to use Discord as your primary tool for
+                        league chat. It includes commands
+                        that return your league's matchups, rosters, point projection and auto updated roster
+                        transactions.</p>
+                    <p class="lead">
+                        There is also a news feed for all the latest and breaking NFL news from sources such as ESPN,
+                        Rotowire, and Yahoo as
+                        well as giving you the ability to search for the latest player news.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a
+                            href="https://discord.com/api/oauth2/authorize?client_id=1043588265372024922&permissions=535529191504&scope=bot"><button
+                                type="button" class="btn btn-primary btn-lg px-4 me-md-2">Add Our Bot</button></a>
+                        <a href="https://discord.gg/c6q5wYy6"><button type="button"
+                                class="btn btn-outline-secondary btn-lg px-4">Support</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-4 text-center border-bottom">
+            <div class="col-lg-6 mx-auto">
+                <h2 class="fw-bold lh-1 mb-3">Ready to go no matter what kind of Sleeper football league you
+                    are running</h2>
+                <p class="fw-bold mb-3">Works for PPR, Half PPR, and Standard scoring. Dynasty leagues and redraft
+                    leagues.</p4>
+                <p class="lead mb-4">
+                    Sleeper Link is fully capable of handling different scoring settings (PPR, Half PPR & Standard) and
+                    allows you to add multiple leagues per server.
 
-</footer>
+
+
+                    Sleeper Link is in active development and more features are planned including League
+                    Table/Playoff bracket information,
+                    pick trades, waiver orders, injury information, draft information, a discord-based trade block,
+                    and live score updates.</p>
+            </div>
+        </div>
+        <!--Cards-->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">What can it do?</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden bg-overlay text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('/assets/images/matchup.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Get Information About Your League
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden bg-overlay text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('assets/images/3918298.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Player Information
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden bg-overlay text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('assets/images/News.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Breaking News Feeds</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Features Grid-->
+
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom">Commands to help you research and keep up to date</h2>
+            <p>Scout the oppsoition, get the player info you need and ensure you always have the lastest news from the
+                NFL right to your Discord Server</p>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Get matchups</h3>
+                        <p>See matchup results or projections for any week of the year.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#cpu-fill" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Get rosters</h3>
+                        <p>Check your lineup from inside Discord or check anyone else's in the league.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#calendar3" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Player projections</h3>
+                        <p>Get the raw data on the fantasy point projections for any player</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#home" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Player news</h3>
+                        <p>Get the latest updates on any player directly from ESPN and other sources</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#speedometer2" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Top adds/drops</h3>
+                        <p>See which players are trending in the league right now.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#toggles2" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Roster changes & transactions</h3>
+                        <p>Get an auto-updated feed of transactions from inside Sleeper directly into Discord.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#geo-fill" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">News feeds</h3>
+                        <p>Get news from Yahoo, Rotowire, ESPN and more directly into your Discord channel, keeping you
+                            up to date with the latest league news.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#tools" />
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Much more planned</h3>
+                        <p>We've got a lot more features planned for 2023! Including live game updates and draft support
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Support Block-->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Support The Bot</h2>
+
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                <div class="d-flex flex-column align-items-start gap-2">
+                    <h3 class="fw-bold">Help Us Keep Sleeper Link Running</h3>
+                    <p class="text-muted">Sleeper Link costs to run in hosting and time. We love doing it
+                        but need your help to keep growing it.</p>
+                    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                        data-name="bmc-button" data-slug="tomhar" data-color="#FF5F5F" data-emoji="" data-font="Poppins"
+                        data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff"
+                        data-coffee-color="#FFDD00"></script>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        </div>
+                        <h4 class="fw-semibold mb-0">One off donations</h4>
+                        <p class="text-muted">Any donation even if it is $1 dollar is massively appreciated.</p>
+                    </div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        </div>
+                        <h4 class="fw-semibold mb-0">Monthly subscription</h4>
+                        <p class="text-muted">Head over to our Buy Me A Coffee page to see what subscriptions there are
+                            to support us and the rewards for doing so!</p>
+                    </div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        </div>
+                        <h4 class="fw-semibold mb-0">Use our affiliate links</h4>
+                        <p class="text-muted">Coming soon.</p>
+                    </div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        </div>
+                        <h4 class="fw-semibold mb-0">Spread the word</h4>
+                        <p class="text-muted">Growing the bot helps us a lot! If you know anyone who would love this bot
+                            please recommend it!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img width="24" src="assets/images/logo.jpg" alt="Sleeper Link Logo">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Sleeper Link</span>
+            </div>
+        </footer>
+    </div>
+</body>
