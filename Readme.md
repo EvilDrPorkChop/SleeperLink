@@ -17,3 +17,5 @@ Setup:
 5) (Optional) Run /setup transaction_channel to start a feed of all waiver/free agent/trades adds & drops
 6) (Optional) Run /setup news_feed and choose a news source to get the latest news from 
 7) You are setup and ready to go!
+
+See more at: https://evildrporkchop.github.io/SleeperLink/
