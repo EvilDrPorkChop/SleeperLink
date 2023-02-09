@@ -26,6 +26,23 @@
 
 <body>
     <main>
+        <div class="container col-xxl-8 px-4 py-5">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img width="50" height="50" class="custom-border-radius" src="assets/images/logo.webp"></img>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#donate" class="nav-link">Donate</a></li>
+                    <li class="nav-item"><a href="https://discord.gg/FepsA6SgUT" class="nav-link">Support Server</a>
+                    </li>
+                    <li class="nav-item"><a
+                            href="https://discord.com/oauth2/authorize?client_id=1043588265372024922&permissions=535529191504&scope=bot"
+                            class="nav-link active" aria-current="page">Add Our Bot</a></li>
+                </ul>
+            </header>
+        </div>
         <!--Hero-->
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -80,7 +97,7 @@
             </div>
         </div>
         <!--Cards-->
-        <div class="container px-4 py-5">
+        <div class="container px-4 py-5" id="features">
             <h2 class="pb-2 border-bottom">What can it do?</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -173,7 +190,8 @@
                     </svg>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4">Roster changes & transactions</h3>
-                        <p>Get an auto-updated feed of transactions from inside Sleeper directly into Discord.</p>
+                        <p>Get an auto-updated feed of transactions from inside Sleeper directly into Discord, including
+                            pick trades.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -192,15 +210,16 @@
                     </svg>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4">Much more planned</h3>
-                        <p>We've got a lot more features planned for 2023! Including live game updates and draft
-                            support.
+                        <p>We've got a lot more features planned for 2023! Including live draft feeds, live game updates
+                            and big play
+                            notifcations.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <!--Support Block-->
-        <div class="container px-4 py-5">
+        <div class="container px-4 py-5" id="donate">
             <h2 class="pb-2 border-bottom">Support The Bot</h2>
 
             <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
@@ -260,7 +279,7 @@
                     <img width="24" height="24" class="custom-border-radius" src="assets/images/logo.webp"
                         alt="Sleeper Link Logo">
                 </a>
-                <span class="mb-3 mb-md-0 text-muted">© 2022 Sleeper Link</span>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 Sleeper Link</span>
             </div>
         </footer>
     </div>

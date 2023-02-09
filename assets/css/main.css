@@ -9,3 +9,7 @@
 .custom-border-radius{
     border-radius: 10px;
 }
+
+p{
+    font-weight: 400 !important;
+}
