@@ -11,11 +11,14 @@ Parts of Sleeper Link work without a Sleeper league, so if you use Yahoo, ESPN o
 Setup:
 
 1) Install the bot - https://discord.com/api/oauth2/authorize?client_id=1043588265372024922&permissions=535529191504&scope=bot
-2) Run the /setup league command
-3) Enter your Sleeper League ID
-4) (Optional) Run /setup team to link your discord profile to your team
-5) (Optional) Run /setup transaction_channel to start a feed of all waiver/free agent/trades adds & drops
-6) (Optional) Run /setup news_feed and choose a news source to get the latest news from 
-7) You are setup and ready to go!
+2) Ensure the bot has permissions to send messages to your discord server/channels
+3) Run the /setup league command
+4) Enter your Sleeper League ID
+5) (Optional) Run /setup team to link your discord profile to your team
+6) (Optional) Run /setup transaction_channel to start a feed of all waiver/free agent/trades adds & drops
+7) (Optional) Run /setup news_feed and choose a news source to get the latest news from 
+8) You are setup and ready to go!
+
+NOTE: If you are getting lots of error messages during setup and the bot is not responding this is usually due to a lack of permissions for the bot in your server. Any server channel you want the bot to be able to post in it needs permissions to do so.
 
 See more at: https://evildrporkchop.github.io/SleeperLink/
