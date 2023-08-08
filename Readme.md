@@ -10,7 +10,7 @@ Parts of Sleeper Link work without a Sleeper league, so if you use Yahoo, ESPN o
 
 Setup:
 
-1) Install the bot - https://discord.com/api/oauth2/authorize?client_id=1043588265372024922&permissions=535529191504&scope=bot
+1) Install the bot - https://discord.com/api/oauth2/authorize?client_id=1043588265372024922&permissions=535261346880&scope=bot%20applications.commands
 2) Ensure the bot has permissions to send messages to your discord server/channels
 3) Run the /setup league command
 4) Enter your Sleeper League ID
