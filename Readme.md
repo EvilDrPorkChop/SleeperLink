@@ -21,4 +21,6 @@ Setup:
 
 NOTE: If you are getting lots of error messages during setup and the bot is not responding this is usually due to a lack of permissions for the bot in your server. Any server channel you want the bot to be able to post in it needs permissions to do so.
 
+Full List of Commands: https://evildrporkchop.github.io/SleeperLink/commands.html
+
 See more at: https://evildrporkchop.github.io/SleeperLink/
