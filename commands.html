@@ -26,7 +26,7 @@
 
 <body>
     <main>
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4 py-3">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                     <img width="50" height="50" class="custom-border-radius" src="assets/images/logo.webp"></img>
@@ -34,8 +34,9 @@
 
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="/#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#/premium" class="nav-link">Premium</a></li>
                     <li class="nav-item"><a href="/SleeperLink/commands.html" class="nav-link">Commands</a></li>
-                    <li class="nav-item"><a href="https://discord.gg/FepsA6SgUT" class="nav-link">Support Server</a>
+                    <li class="nav-item"><a href="https://discord.gg/rzA77N7nZ2" class="nav-link">Support Server</a>
                     </li>
                     <li class="nav-item"><a
                             href="https://discord.com/api/oauth2/authorize?client_id=1043588265372024922&permissions=535261346880&scope=bot%20applications.commands"
@@ -136,6 +137,36 @@
                     <td>Gets trending data for the top 25 players being dropped on Sleeper.</td>
                 </tr>
                 <tr>
+                    <td>/trade_block set_channel</td>
+                    <td>Channel</td>
+                    <td>Sets a channel where trade block updates get posted.</td>
+                </tr>
+                <tr>
+                    <td>/trade_block remove_channel</td>
+                    <td>League</td>
+                    <td>Removes the channel. Trade block can still be used</td>
+                </tr>
+                <tr>
+                    <td>/trade_block put_on_block</td>
+                    <td>League, Player Name</td>
+                    <td>Allows you to put a player in your team on the trade block.</td>
+                </tr>
+                <tr>
+                    <td>/trade_block remove_from_block</td>
+                    <td>League</td>
+                    <td>Remove a player from the trade block.</td>
+                </tr>
+                <tr>
+                    <td>/trade_block view</td>
+                    <td>League</td>
+                    <td>View the trade block.</td>
+                </tr>
+                <tr>
+                    <td>/tradecalc</td>
+                    <td>Player x2, PPR, League Type, Num QBs</td>
+                    <td>A simple 1 for 1 trade calculator using fantasycalc.com data.</td>
+                </tr>
+                <tr>
                     <td>/delete all_news_feeds</td>
                     <td>N/A</td>
                     <td>Deletes all the current news feeds in the server.</td>
@@ -164,11 +195,6 @@
                     <td>/delete myteam</td>
                     <td>N/A</td>
                     <td>Unlinks your Discord ID from the designated Sleeper team.</td>
-                </tr>
-                <tr>
-                    <td>/whereismarlonmack</td>
-                    <td>N/A</td>
-                    <td>Checks what team Marlon Mack is signed to and checks if the database/server is functioning as expected.</td>
                 </tr>
             </tbody>
         </table>
